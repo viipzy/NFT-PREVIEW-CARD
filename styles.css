@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+body {
+  font-size: 18px;
+  padding: 50px 20px;
+  background-color: hsl(217, 54%, 11%);
+  font-family: Outfit, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(0, 0%, 100%);
+}
+
+.img-container {
+  height: 15em;
+  border-radius: 10px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.main-img {
+  height: 15em;
+  position: relative;
+  width: 100%;
+}
+
+.main-img:hover {
+  opacity: 0.5;
+}
+
+.img-container:hover {
+  background: url(./images/icon-view.svg);
+  background-color: hsl(178, 100%, 50%);
+  background-size: 10%;
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.eth {
+  display: flex;
+  border-bottom: 0.5px solid hsl(215, 51%, 70%);
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.eth-icon, .time {
+  display: flex;
+  align-items: center;
+}
+
+svg, h2 {
+  display: flex;
+  padding: 5px;
+}
+
+.eth-icon h2 {
+  font-size: 18px;
+  color: hsl(178, 100%, 50%);
+}
+
+h2:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.time p {
+  color: hsl(215, 51%, 70%);
+}
+
+.last-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: hsl(0, 0%, 100%);
+}
+.last-section .pfp {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 2px solid hsl(215, 51%, 70%);
+  background: url(./images/image-avatar.png);
+  background-size: cover;
+}
+
+.different {
+  color: hsl(215, 51%, 70%);
+}
+
+.last-section .hold:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+/* 
+@media (min-width:) {
+
+}
+
+ *//*# sourceMappingURL=styles.css.map */

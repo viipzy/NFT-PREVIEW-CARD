@@ -1,4 +1,133 @@
-<style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+$Blue-500: hsl(215, 51%, 70%);
+$Cyan-400: hsl(178, 100%, 50%);
+$Blue-950: hsl(217, 54%, 11%);
+$Blue-900: hsl(216, 50%, 16%);
+$Blue-800: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+
+
+body{
+  font-size: 18px;
+  padding: 50px 20px;
+  background-color: $Blue-950;
+  font-family: Outfit, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+  padding:20px;
+  border-radius: 10px;
+  background-color: $Blue-900;
+  color: $White;
+}
+
+.img-container{
+  height: 15em;
+  border-radius: 10px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.main-img{
+  height: 15em;
+  position: relative;
+  width: 100%;
+}
+
+.main-img:hover{
+  opacity: 0.5;
+}
+
+.img-container:hover{
+  background: url(./images/icon-view.svg);
+  background-color: hsla(178, 100%, 50%, 1);
+  background-size: 10%;
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.eth{
+  display: flex;
+  border-bottom: 0.5px solid $Blue-500 ;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.eth-icon, .time{
+  display: flex;
+  align-items: center;
+  
+}
+svg, h2{
+  display: flex;
+  padding: 5px;
+
+}
+
+.eth-icon{
+  & h2{
+  font-size: 18px;
+  color: $Cyan-400;
+}
+
+}
+
+h2:hover{
+  color: $Cyan-400;
+  cursor: pointer;
+}
+
+.time{
+  & p{
+    color: $Blue-500;
+  }
+}
+
+
+.last-section{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: $White;
+  & .pfp{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid $Blue-500;
+    background: url(./images/image-avatar.png);
+    background-size: cover;
+  }
+}
+
+.different{
+  color: $Blue-500;
+}
+
+.last-section .hold:hover{
+  color: $Cyan-400;
+  cursor: pointer;
+}
+
+
+/* 
+@media (min-width:) {
+  
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
