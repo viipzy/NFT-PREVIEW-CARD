@@ -95,9 +95,9 @@ h2:hover {
   cursor: pointer;
 }
 
-/* 
-@media (min-width:) {
-
-}
-
- *//*# sourceMappingURL=styles.css.map */
+@media (min-width: 400px) {
+  main {
+    max-width: 320px;
+    margin: 40px auto;
+  }
+}/*# sourceMappingURL=styles.css.map */
