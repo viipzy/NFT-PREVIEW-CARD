@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 body {
-  font-size: 18px;
+  font-size: 1.2em;
   padding: 50px 20px;
   background-color: hsl(217, 54%, 11%);
   font-family: Outfit, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -97,7 +97,7 @@ h2:hover {
 
 @media (min-width: 400px) {
   main {
-    max-width: 300px;
+    max-width: 18.2em;
     margin: 40px auto;
   }
 }/*# sourceMappingURL=styles.css.map */
