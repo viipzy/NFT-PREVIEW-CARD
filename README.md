@@ -1,30 +1,23 @@
-# Frontend Mentor - NFT preview card component
+# NFT preview card component
 
-This is my solution to the NFT preview card component challenge on Frontend Mentor
-. This project helped me practice responsive layouts, hover effects, and writing cleaner SCSS using variables and nesting.
+This project is a responsive NFT preview card UI component built to demonstrate clean layout structure, hover interactions, and scalable styling using SCSS.
 
-## Table of contents
+The focus of this project is visual polish, responsiveness, and maintainable styles rather than application logic. It showcases attention to detail in UI behavior and component-level styling.
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
-### The challenge
- Users should be able to:
- 
- - View the optimal layout depending on their device’s screen size
- 
- - See hover states for interactive elements (image, title, creator name)
 
+The NFT preview card displays key NFT information with interactive hover states and adapts smoothly across different screen sizes. It emphasizes visual hierarchy, spacing, and subtle user interactions commonly expected in modern web interfaces.
+
+
+### Features
+
+* Interactive hover states for images and text elements
+
+* Clean visual hierarchy and spacing
+
+* Mobile-first implementation
 
 
 ### Screenshot
@@ -33,16 +26,16 @@ This is my solution to the NFT preview card component challenge on Frontend Ment
 ![small-device](./images/smaller-screen.png)
 ![Larger-device](./images/larger-screen-size.png)
 
-### Links
+### Live Demo and Source
 
-- Solution URL: https://www.frontendmentor.io/solutions/responsive-nft-card-preview-page-with-scss-flex-b0sMEJWq0L
+- [Live Demo](https://nft-preview-card-beryl-theta.vercel.app/)
 
-- Live Site URL : https://nft-preview-card-beryl-theta.vercel.app/
+- [Source](https://www.frontendmentor.io/solutions/responsive-nft-card-preview-page-with-scss-flex-b0sMEJWq0L)
 
 
-## My process
 
-### Built with
+## Tech Stack
+
  - Semantic HTML5
 
  - SCSS (variables, nesting)
@@ -51,19 +44,12 @@ This is my solution to the NFT preview card component challenge on Frontend Ment
 
  - Mobile-first workflow
 
- ### What I learned
 
- This project helped me understand how to:
+ ## Implementation Notes
 
-Use SCSS variables for colors so my design stays consistent
+  SCSS was used to improve maintainability by centralizing color values and reducing repetition through nesting. Hover states were designed to feel subtle but intentional, enhancing the user experience without overwhelming the UI.
 
-Create hover overlay effects using background images and opacity
-
-Align content using Flexbox
-
-Build responsive layouts with media queries
-
-Example SCSS I’m proud of:
+Example hover overlay implementation:
 ```scss
 .img-container:hover {
   background: url(./images/icon-view.svg);
@@ -74,24 +60,29 @@ Example SCSS I’m proud of:
   cursor: pointer;
 }
 ```
+This approach creates a clean overlay effect that visually communicates interactivity while preserving the underlying layout.
 
-This hover effect gave the NFT image a clean interactive feel.
+### What I Learned
 
-### Continued development
+- Structuring reusable and readable SCSS using variables
 
-In future projects, I want to:
+- Creating overlay hover effects with background images and opacity
 
- - Improve my responsive layouts
+- Aligning and spacing UI elements using Flexbox
 
-    - Write more reusable SCSS
+- Building responsive layouts with a mobile-first mindset
 
-    - Practice CSS Grid alongside Flexbox
+## Future Improvements
+- Improve component reusability
 
-    - Get better at organizing components
+- Introduce CSS Grid for more complex layouts
+
+- Further refine responsive behavior
+
+- Improve project structure for scalability
 
 ## Author
-
-- Name: Awosanya Ifeoluwa Victor (Viipzy)
+ Awosanya Ifeoluwa Victor (Viipzy)
 
 - Github - [Viipzy](https://github.com/viipzy)
 
